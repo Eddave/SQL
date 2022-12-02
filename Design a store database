@@ -1,0 +1,25 @@
+Check out my store database here. Notice how I've described each piece of code (first I created a store database, then displayed the database ordered by aisle).
+I also put the total sum for all of my items in the store if they all sold. 
+
+
+
+Create Table Bebopclothes (id INTEGER PRIMARY KEY, category TEXT, brand TEXT, Aisle INTEGER, Price INTEGER); 
+
+INSERT into bebopclothes VALUES (1, "shirts", "bebop_clothes", 2, 40);
+INSERT into bebopclothes VALUES (2, "pants", "bebop_clothes", 3, 60);
+INSERT into bebopclothes VALUES (3, "sweater", "bebop_clothes", 4, 50);
+INSERT into bebopclothes VALUES (4, "socks", "bebop_clothes", 5, 20);
+INSERT into bebopclothes VALUES (5, "hoodie", "bebop_clothes", 6, 65);
+INSERT into bebopclothes VALUES (6, "boxer briefs", "bebop_clothes", 5, 35);
+INSERT into bebopclothes VALUES (7, "men tank top", "bebop_clothes", 5, 30);
+INSERT into bebopclothes VALUES (8, "jeans", "bebop_clothes", 3, 70);
+INSERT into bebopclothes VALUES (9, "jogger", "bebop_clothes", 3, 45);
+INSERT into bebopclothes VALUES (10, "Blazer", "bebop_clothes", 7, 80);
+INSERT into bebopclothes VALUES (11, "dress pants", "bebop_clothes", 7, 50);
+INSERT into bebopclothes VALUES (12, "tie", "bebop_clothes", 7, 40);
+INSERT into bebopclothes VALUES (13, "polo", "bebop_clothes", 8, 60);
+INSERT into bebopclothes VALUES (14, "jacket", "bebop_clothes", 9, 300);
+INSERT into bebopclothes VALUES (15, "earrings", "bebop_clothes", 10, 100);
+
+Select * from bebopclothes Order by aisle; 
+Select sum(price) from bebopclothes
