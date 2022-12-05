@@ -1,8 +1,3 @@
-Check out my store database here. Notice how I've described each piece of code (first I created a store database, then displayed the database ordered by aisle).
-I also put the total sum for all of my items in the store if they all sold. 
-
-
-
 Create Table Bebopclothes (id INTEGER PRIMARY KEY, category TEXT, brand TEXT, Aisle INTEGER, Price INTEGER); 
 
 INSERT into bebopclothes VALUES (1, "shirts", "bebop_clothes", 2, 40);
